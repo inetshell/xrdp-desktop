@@ -10,9 +10,9 @@ services:
     ports:
       - "127.0.0.1:3389:3389"
     volumes:
-      - /docker/xrdp/home/:/home/
-      - /docker/xrdp/opt/:/opt/
-      - /docker/xrdp/log/apt/:/var/log/apt/
-      - /docker/xrdp/log/journal/:/var/log/journal/
-      - /docker/xrdp/log/supervisor/:/var/log/supervisor/
-      - /docker/xrdp/tmp/:/tmp/
+      - ./data/home/:/home/
+      - ./data/opt/:/opt/
+      - ./data/log/apt/:/var/log/apt/
+      - ./data/log/journal/:/var/log/journal/
+      - ./data/log/supervisor/:/var/log/supervisor/
+      - ./data/tmp/:/tmp/
