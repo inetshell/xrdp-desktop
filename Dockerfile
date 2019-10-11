@@ -14,7 +14,9 @@ RUN apt-get install -y \
     seahorse \
     libgnome-keyring0 \
     curl \
-    jq
+    jq \
+    iputils-ping \
+    dnsutils
 #apt-get install ttf-mscorefonts-installer
 #https://askubuntu.com/questions/16225/how-can-i-accept-the-microsoft-eula-agreement-for-ttf-mscorefonts-installer
 #https://www.pcworld.com/article/2863497/how-to-install-microsoft-fonts-in-linux-office-suites.html
